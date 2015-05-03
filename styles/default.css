@@ -1,0 +1,48 @@
+body {
+    font-size: 14px;
+}
+.sm-center {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logoCasabeSoft {
+    margin-top: 28px;
+    margin-bottom: 28px;
+    max-width: 400px;
+    width: 100%;
+}
+#lnkFreeAutonomos {
+    display: block;
+    margin-top: 42px;
+}
+@media (min-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+    html, body, .container, .full-height {
+        height: 100%;
+    }
+    .container {
+        transform-style: preserve-3d;
+    }
+    .vertical-align {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .sm-center {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #logoCasabeSoft {
+        margin-top: 0;
+        margin-bottom: 0;
+        max-width: 100%;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 970px;
+    }
+}
